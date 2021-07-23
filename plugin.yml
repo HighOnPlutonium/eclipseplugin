@@ -1,0 +1,6 @@
+main: joelkral.eclipseplugin.EclipsePlugin
+name: EclipsePlugin
+version: 1.0
+description: A work in progress Spigot Plugin, developed with Java!
+api-version: 1.16
+author: Joel Thomas Kral
