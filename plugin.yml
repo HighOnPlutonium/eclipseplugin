@@ -4,3 +4,4 @@ version: 1.0
 description: A work in progress Spigot Plugin, developed with Java!
 api-version: 1.16
 author: Joel Thomas Kral
+Description: Removes all "casualties" in a 16 block radius
