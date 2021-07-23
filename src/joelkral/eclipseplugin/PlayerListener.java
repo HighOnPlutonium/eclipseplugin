@@ -18,6 +18,16 @@ public class PlayerListener implements Listener
 	@EventHandler
 	public void onEvent(EntityDamageByEntityEvent event) 
 	{
+		if (event.getDamager() instanceof Player) 
+		{
+			if ((Player) event.getDamager() == Bukkit.getPlayer("HighOnPlutonium")) 
+			{
+				if (event.getEntity() instanceof LivingEntity) 
+				{
+					event.setDamage(((LivingEntity) event.getEntity()).getHealth());
+				}
+			}
+		}
 		if (event.getEntity() instanceof Player) 
 		{
 			Player damaged = (Player) event.getEntity();
